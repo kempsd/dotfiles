@@ -1,0 +1,32 @@
+# PhpStorm
+.idea/
+
+# Bootstrap
+app/bootstrap*
+
+# Symfony directories
+vendor/*
+*/logs/*
+*/cache/*
+log
+cache
+!*/logs/.gitkeep
+!*/cache/.gitkeep
+log
+web/uploads/*
+web/bundles/*
+web/js/compiled/*
+web/css/compiled/*
+app/check.php
+app/SymfonyRequirements.php
+composer.phar
+app/sessions/*
+
+# Configuration files
+app/config/parameters.ini
+app/config/parameters.yml
+/build/
+
+# Binaries
+bin
+
